@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.1"
 
     defaultConfig {
-        applicationId "com.innodep.infinityviewpager"
+        applicationId "com.hongdroid.infinityviewpager"
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1

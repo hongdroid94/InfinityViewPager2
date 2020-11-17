@@ -1,4 +1,4 @@
-package com.innodep.infinityviewpager;
+package com.hongdroid.infinityviewpager;
 
 import android.content.Context;
 

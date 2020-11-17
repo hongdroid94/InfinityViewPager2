@@ -1,4 +1,4 @@
-package com.innodep.infinityviewpager.adapter;
+package com.hongdroid.infinityviewpager.adapter;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -11,16 +11,16 @@ import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.innodep.infinityviewpager.R;
+import com.hongdroid.infinityviewpager.R;
 
 import java.util.List;
 
-public class ViewPagerAdapter extends RecyclerView.Adapter<ViewPagerAdapter.ViewHolder> {
+public class RecyclerPagerAdapter extends RecyclerView.Adapter<RecyclerPagerAdapter.ViewHolder> {
 
     private Context mContext;
     private List<String> list;
 
-    public ViewPagerAdapter(Context mContext, List<String> list) {
+    public RecyclerPagerAdapter(Context mContext, List<String> list) {
         this.mContext   = mContext;
         this.list       = list;
     }
